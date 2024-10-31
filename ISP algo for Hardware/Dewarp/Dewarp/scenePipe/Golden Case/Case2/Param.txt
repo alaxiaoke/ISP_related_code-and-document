@@ -1,0 +1,11 @@
+RegEnable = 1;
+RegBlockWidth = 5;
+RegFullHeight = 1748;
+RegFullWidth = 2328;
+RegMapWidth = 74;
+RegMapHeight = 56;
+RegStartH = 55;
+RegInputHeight = 1641;
+RegStartW = 202;
+RegInputWidth = 1906;
+RegInitLinebuffHeight = 195;

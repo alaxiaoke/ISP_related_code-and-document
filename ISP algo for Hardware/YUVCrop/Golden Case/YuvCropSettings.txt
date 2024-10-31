@@ -1,0 +1,7 @@
+RegEnable = 1
+RegInputWidth = 2328
+RegInputHeight = 1748
+RegStartH = 50
+RegCropHeight = 1500
+RegStartW = 40
+RegCropWidth = 1540

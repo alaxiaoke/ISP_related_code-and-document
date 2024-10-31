@@ -1,0 +1,151 @@
+﻿  alAELibCore.cpp
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(25,2): warning C4091: “typedef ”: 没有声明变量时忽略“LogLevel_em”的左侧
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(269,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(272,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\AE_Lib_core.h(203,2): warning C4091: “typedef ”: 没有声明变量时忽略“WDRMode”的左侧
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\table.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“eAETableID”的左侧
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\table.h(79,2): warning C4091: “typedef ”: 没有声明变量时忽略“strAETable”的左侧
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\table.h(182,2): warning C4091: “typedef ”: 没有声明变量时忽略“strAETarget”的左侧
+  (编译源文件“core/alAELibCore.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(117,36): warning C4305: “=”: 从“double”到“float”截断
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(285,148): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(734,30): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(747,75): warning C4244: “=”: 从“UINT32”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1089,157): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1293,28): warning C4244: “=”: 从“float”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1294,27): warning C4244: “=”: 从“float”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1295,29): warning C4244: “=”: 从“float”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1296,28): warning C4244: “=”: 从“float”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1933,45): warning C4305: “=”: 从“double”到“float”截断
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(1934,42): warning C4305: “=”: 从“double”到“float”截断
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2069,43): warning C4305: “=”: 从“double”到“float”截断
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2075,51): warning C4305: “=”: 从“double”到“float”截断
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2113,37): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2118,37): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2124,36): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2129,36): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2183,60): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2188,63): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2194,64): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2205,68): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2214,64): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2225,47): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2231,24): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2232,48): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2426,30): warning C4244: “=”: 从“float”转换到“INT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2605,43): warning C4244: “=”: 从“UINT16”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2606,43): warning C4244: “=”: 从“UINT16”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2808,14): warning C4244: “初始化”: 从“float”转换到“INT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2834,22): warning C4244: “=”: 从“float”转换到“INT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2864,20): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2919,23): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2931,126): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2952,99): warning C4244: “=”: 从“float”转换到“UINT16”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(2956,93): warning C4244: “=”: 从“float”转换到“UINT16”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(3005,25): warning C4244: “=”: 从“float”转换到“UINT16”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(3021,25): warning C4244: “=”: 从“float”转换到“UINT16”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(3046,160): warning C4018: “>”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(3051,166): warning C4018: “<=”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(3056,165): warning C4018: “>”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELibCore.cpp(3110,96): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  alAELib_iAE.cpp
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(25,2): warning C4091: “typedef ”: 没有声明变量时忽略“LogLevel_em”的左侧
+  (编译源文件“core/alAELib_iAE.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(269,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“core/alAELib_iAE.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(272,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“core/alAELib_iAE.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\AE_Lib_core.h(203,2): warning C4091: “typedef ”: 没有声明变量时忽略“WDRMode”的左侧
+  (编译源文件“core/alAELib_iAE.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELib_iAE.cpp(158,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELib_iAE.cpp(158,19): warning C4018: “>”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\alAELib_iAE.cpp(261,24): warning C4244: “初始化”: 从“double”转换到“UINT32”，可能丢失数据
+  table.cpp
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(25,2): warning C4091: “typedef ”: 没有声明变量时忽略“LogLevel_em”的左侧
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(269,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(272,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\AE_Lib_core.h(203,2): warning C4091: “typedef ”: 没有声明变量时忽略“WDRMode”的左侧
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\table.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“eAETableID”的左侧
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\table.h(79,2): warning C4091: “typedef ”: 没有声明变量时忽略“strAETable”的左侧
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\table.h(182,2): warning C4091: “typedef ”: 没有声明变量时忽略“strAETarget”的左侧
+  (编译源文件“core/table.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(46,16): warning C4244: “初始化”: 从“float”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(64,16): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(65,13): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(67,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(74,31): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(87,34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(97,17): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(101,20): warning C4244: “=”: 从“float”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(102,34): warning C4244: “=”: 从“float”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(134,79): warning C4018: “>=”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(134,130): warning C4018: “<=”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(138,83): warning C4018: “<”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(138,134): warning C4018: “>”: 有符号/无符号不匹配
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\table.cpp(202,115): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  IspSoftAeApi.cpp
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(25,2): warning C4091: “typedef ”: 没有声明变量时忽略“LogLevel_em”的左侧
+  (编译源文件“IspSoftAeApi.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(269,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“IspSoftAeApi.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\core\include\MyLog.h(272,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“IspSoftAeApi.cpp”)
+  
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(54,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(76,48): warning C4244: “=”: 从“float”转换到“uint32_t”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(83,41): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(660,81): warning C4244: “=”: 从“float”转换到“UINT32”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(662,68): warning C4244: “=”: 从“float”转换到“UINT16”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(680,50): warning C4244: “=”: 从“uint16_t”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(681,51): warning C4244: “=”: 从“uint16_t”转换到“UINT8”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(729,53): warning C4244: “=”: 从“uint32_t”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(730,58): warning C4244: “=”: 从“UINT32”转换到“float”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(747,19): warning C4101: “out_buffer”: 未引用的局部变量
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.cpp(810,15): warning C4273: “IspSoftAeLoad”: dll 链接不一致
+  D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\IspSoftAeApi.h(77,33):
+  参见“IspSoftAeLoad”的前一个定义
+  
+  test.cpp
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\test.cpp(237,17): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\test.cpp(245,14): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\test.cpp(297,18): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\test.cpp(322,17): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\test.cpp(331,17): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  正在生成代码...
+D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\test.cpp(178,1): warning C4715: “post_message”: 不是所有的控件路径都返回值
+alAELibCore.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+    正在创建库 D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\x64\Debug\AL_AE.lib 和对象 D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\x64\Debug\AL_AE.exp
+LINK : warning LNK4217: 符号“IspSoftAeLoad”(在“ IspSoftAeApi.obj”中定义)已由“test.obj”(函数“main”中)导入
+  AL_AE.vcxproj -> D:\3aalgo\3a-tmp\3a\AE\RGB\JG_AE\x64\Debug\AL_AE.exe

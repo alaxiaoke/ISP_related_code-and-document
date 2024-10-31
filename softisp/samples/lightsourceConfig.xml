@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Light_Sources>
+    <light id="8000k">
+        <whitePoint>2.476,1.255</whitePoint>
+        <cct>8000</cct>
+    </light>
+    <light id="D65">
+        <whitePoint>2.270,1.589</whitePoint>
+        <cct>6500</cct>
+    </light>
+<!--    <light id="cwf">-->
+<!--        <whitePoint>1.864,2.352</whitePoint>-->
+<!--        <cct>4150</cct>-->
+<!--    </light>-->
+    <light id="TL84">
+        <whitePoint>1.719,2.361</whitePoint>
+        <cct>4100</cct>
+    </light>
+    <light id="A">
+        <whitePoint>1.226,3.044</whitePoint>
+        <cct>2856</cct>
+    </light>
+</Light_Sources>

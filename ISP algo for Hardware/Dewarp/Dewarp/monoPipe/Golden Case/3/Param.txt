@@ -1,0 +1,11 @@
+Filter.m_sCtrlParam.RegEnable = 1;
+Filter.m_sCtrlParam.RegBlockWidth = 4;
+Filter.m_sCtrlParam.RegFullHeight = 240;
+Filter.m_sCtrlParam.RegFullWidth = 320;
+Filter.m_sCtrlParam.RegMapWidth = 21;
+Filter.m_sCtrlParam.RegMapHeight = 16;
+Filter.m_sCtrlParam.RegStartH = 8;
+Filter.m_sCtrlParam.RegInputHeight = 225;
+Filter.m_sCtrlParam.RegStartW = 28;
+Filter.m_sCtrlParam.RegInputWidth = 260;
+Filter.m_sCtrlParam.RegInitLinebuffHeight = 32;

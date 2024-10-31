@@ -1,0 +1,2 @@
+hulk版本：1.0.2.6
+更新read 为bin格式，新增fs相关效果参数及config

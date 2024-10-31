@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vertexs>
+    <vertexs_global>
+        <vertex id="left top">
+            <whitePoint>0.1,1.1</whitePoint>
+        </vertex>
+        <vertex id="left bottom">
+            <whitePoint>0.1,0.1</whitePoint>
+            <cct>6500</cct>
+        </vertex>
+        <vertex id="right top">
+            <whitePoint>1.3,1.1</whitePoint>
+            <cct>5000</cct>
+        </vertex>
+        <vertex id="right bottom">
+            <whitePoint>1.3,0.1</whitePoint>
+            <cct>3882</cct>
+        </vertex>
+    </vertexs_global>
+    <vertexs_gray>
+        <vertex id="left top">
+            <whitePoint>0.2,0.85</whitePoint>
+        </vertex>
+        <vertex id="left bottom">
+            <whitePoint>0.2,0.1</whitePoint>
+            <cct>6500</cct>
+        </vertex>
+        <vertex id="right top">
+            <whitePoint>1.2,0.85</whitePoint>
+            <cct>5000</cct>
+        </vertex>
+        <vertex id="right bottom">
+            <whitePoint>1.2,0.1</whitePoint>
+            <cct>3882</cct>
+        </vertex>
+    </vertexs_gray>
+    <vertexs_blue>
+        <vertex id="left top">
+            <whitePoint>0.2,0.85</whitePoint>
+        </vertex>
+        <vertex id="left bottom">
+            <whitePoint>0.2,0.1</whitePoint>
+            <cct>6500</cct>
+        </vertex>
+        <vertex id="right top">
+            <whitePoint>1.2,0.85</whitePoint>
+            <cct>5000</cct>
+        </vertex>
+        <vertex id="right bottom">
+            <whitePoint>1.2,0.1</whitePoint>
+            <cct>3882</cct>
+        </vertex>
+    </vertexs_blue>
+    <vertexs_yellow>
+        <vertex id="left top">
+            <whitePoint>0.2,0.85</whitePoint>
+        </vertex>
+        <vertex id="left bottom">
+            <whitePoint>0.2,0.1</whitePoint>
+            <cct>6500</cct>
+        </vertex>
+        <vertex id="right top">
+            <whitePoint>1.2,0.85</whitePoint>
+            <cct>5000</cct>
+        </vertex>
+        <vertex id="right bottom">
+            <whitePoint>1.2,0.1</whitePoint>
+            <cct>3882</cct>
+        </vertex>
+    </vertexs_yellow>
+</vertexs>

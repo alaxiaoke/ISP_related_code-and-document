@@ -1,0 +1,11 @@
+RegEnable = 1
+RegFullWidth = 640
+RegFullHeight = 480
+RegStartH = 17
+RegInputHeight = 448
+RegStartW = 60
+RegInputWidth = 514
+RegMapWidth = 41
+RegMapHeight = 31
+RegBlockWidth = 4
+RegInitLinebuffHeight = 60

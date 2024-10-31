@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="alAWBLib_AWB.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Altek_AWB.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AWB_handle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alAWBLib_AWB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alAWBLib_AWB_Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alAWBLib_AWBApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alAWBLib_Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allib_ae.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allib_awb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Altek_AWB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AWB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AWB_handle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BU_AwbPara.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IQ_AWB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gxr_raw2bgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLog.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\aeHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\allib_ae.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\allib_ae_errcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gxr_sraw2bgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allib_mtype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="lib\RawToBGR.dll" />
+    <None Include="lib\SRawToBGR.dll" />
+    <None Include="RawToBGR.dll" />
+    <None Include="SRawToBGR.dll" />
+    <None Include="AL_AE.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\AL_AE.lib" />
+    <Library Include="lib\RawToBGR.lib" />
+    <Library Include="lib\SRawToBGR.lib" />
+  </ItemGroup>
+</Project>

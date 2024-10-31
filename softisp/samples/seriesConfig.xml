@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<series>
+    <frame id="1">
+        <weight>0.0</weight>
+    </frame>
+    <frame id="2">
+        <weight>0.1</weight>
+    </frame>
+    <frame id="3">
+        <weight>0.2</weight>
+    </frame>
+    <frame id="4">
+        <weight>0.3</weight>
+    </frame>
+    <frame id="5">
+        <weight>0.4</weight>
+    </frame>
+</series>

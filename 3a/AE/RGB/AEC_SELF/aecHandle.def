@@ -1,0 +1,9 @@
+LIBERARY AEC
+
+EXPORTS
+init
+setParam
+getStats
+getHist
+process
+getAEOut

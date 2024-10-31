@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Light_Sources>
+    <light id="8000k">
+        <weight>1.0</weight>
+    </light>
+    <light id="D65">
+        <weight>1.02</weight>
+    </light>
+    <light id="TL84">
+        <weight>0.98</weight>
+    </light>
+    <light id="A">
+        <weight>1.0</weight>
+    </light>
+</Light_Sources>

@@ -1,0 +1,7 @@
+RegEnableClip   =1
+RegInputWidth   =2328
+RegInputHeight  =1748
+RegRclipValue   =584
+RegGclipValue   =1023
+RegBclipValue   =416
+RegBayerPattern =0

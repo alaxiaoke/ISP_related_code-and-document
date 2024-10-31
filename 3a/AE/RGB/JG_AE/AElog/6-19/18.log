@@ -1,0 +1,11 @@
+
+[AEC Proc]06-19 18:18:25 @[allib_ae_set_debug_log_flag] Line:110:[INFO] debug level/to_file: 4/1
+[AEC Proc]06-19 18:18:25 @[allib_ae_getlib_version] Line:119:[INFO] AE ver: 2024_V1.12
+[AEC Proc]06-19 18:18:25 @[AeInit] Line:109:[INFO] AE ver: 2024_V1.12
+
+[AEC Proc]06-19 18:18:25 @[allib_ae_loadfunc] Line:174:[INFO] camera ID: 0
+[AEC Proc]06-19 18:18:25 @[allib_ae_set_debug_log_flag] Line:110:[INFO] debug level/to_file: 4/1
+[AEC Proc]06-19 18:18:25 @[allib_ae_getlib_version] Line:119:[INFO] AE ver: 2024_V1.12
+[AEC Proc]06-19 18:18:25 @[AeInit] Line:109:[INFO] AE ver: 2024_V1.12
+
+[AEC Proc]06-19 18:18:25 @[allib_ae_loadfunc] Line:174:[INFO] camera ID: 1(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)(null)

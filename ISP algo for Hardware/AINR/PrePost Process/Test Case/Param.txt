@@ -1,0 +1,10 @@
+isp_message.RegImageWidth = 2328;
+isp_message.RegImageHeight = 1748;
+isp_message.RegOverlap_pad = 8;
+isp_message.RegReal_size = 256;
+isp_message.RegRow_startloc[0]=0;
+isp_message.RegRow_startloc[1] = 256;
+isp_message.RegRow_startloc[2] = 512;
+isp_message.RegRow_startloc[3] = 768;
+isp_message.RegNumber_row = 4;
+Post_message.Reg_weight[32] = { 0,8,16,24,32,40,48,56,64,72,80,88,96,104,112,120,128,136,144,152,160,168,176,184,192,200,208,216,224,232,240,248};

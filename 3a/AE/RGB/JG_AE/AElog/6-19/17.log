@@ -1,0 +1,1436 @@
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:110:[INFO] debug level/to_file: 4/1
+[AEC Proc]06-19 17:50:53 @[allib_ae_getlib_version] Line:119:[INFO] AE ver: 2024_V1.12
+[AEC Proc]06-19 17:50:53 @[AeInit] Line:109:[INFO] AE ver: 2024_V1.12
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_loadfunc] Line:174:[INFO] camera ID: 0
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:110:[INFO] debug level/to_file: 4/1
+[AEC Proc]06-19 17:50:53 @[allib_ae_getlib_version] Line:119:[INFO] AE ver: 2024_V1.12
+[AEC Proc]06-19 17:50:53 @[AeInit] Line:109:[INFO] AE ver: 2024_V1.12
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_loadfunc] Line:174:[INFO] camera ID: 1
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 0 / 0
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/219.119995/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3450
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20818
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21428
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5270
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13709 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13709  prebv 5270  curbv 9826  P_Gain 1.350000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 9826, 0 5270 7741
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 112.282829, targetbv 9826, deltabv 4556, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/165, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13668/9826/0/20818
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 0 / 0
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/219.119995/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3450
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20818
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21428
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5270
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13709 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13709  prebv 5270  curbv 9826  P_Gain 1.350000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 9826, 0 11076 7741
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 112.282829, targetbv 9826, deltabv 4556, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/165, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13668/9826/0/20818
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 1 / 1
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/112.282829/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3230
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 9826
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13799 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 4556  targetbv 13799  prebv 9826  curbv 13799  P_Gain 1.728800
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13799, 1 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 19.116882, targetbv 13799, deltabv 3973, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/10, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13758/13799/72522/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 1 / 1
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/112.282829/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3230
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 9826
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13799 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 4556  targetbv 13799  prebv 9826  curbv 13799  P_Gain 1.728800
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13799, 2 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 19.116882, targetbv 13799, deltabv 3973, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/10, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13758/13799/72522/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 2 / 2
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/19.116882/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3039
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13799
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13886 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 3973  targetbv 13886  prebv 13799  curbv 13886  P_Gain 0.967200
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13886, 3 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.076752, targetbv 13886, deltabv 87, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13845/13886/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 2 / 2
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/19.116882/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3039
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13799
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13886 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 3973  targetbv 13886  prebv 13799  curbv 13886  P_Gain 0.967200
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13886, 4 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.076752, targetbv 13886, deltabv 87, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13845/13886/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 0.000000, 165.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 3 / 3
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.076752/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3035
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13886
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 87  targetbv 13889  prebv 13886  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 3, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/0/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 0.000000, 165.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 3 / 3
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.076752/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3035
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13886
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 87  targetbv 13889  prebv 13886  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 3, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/1/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 165.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 10.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 4 / 4
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 3  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/1/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 165.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 10.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 4 / 4
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 3  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/2/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 10.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 5 / 5
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/2/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 10.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 5 / 5
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/3/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 6 / 6
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/3/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 6 / 6
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/4/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 4.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 7 / 7
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/4/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 4.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 7 / 7
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 4.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 5.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 8 / 8
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 4.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 5.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 8 / 8
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[Calculate_DTC_GAIN] Line:145:[DEBUG] [IAE Process] brightLow 16727  brighthigh 16727  darklow 5018  darkhigh 5018  lw_avg 21327  pushup 25500  pushdown 25500  dark 1700
+[AEC Proc]06-19 17:50:53 @[Calculate_DTC_GAIN] Line:225:[DEBUG] [IAE Process] short target 3034  safe target 3034  long target 5006 
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:980:[DEBUG] effect midtones_gain is 100
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1152:[DEBUG] [WDR AE]: short target : 3034   udmidgain : 100
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/108
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 5.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 6.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 9 / 9
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[Calculate_DTC_GAIN] Line:145:[DEBUG] [IAE Process] brightLow 16727  brighthigh 16727  darklow 5018  darkhigh 5018  lw_avg 21327  pushup 25500  pushdown 25500  dark 1700
+[AEC Proc]06-19 17:50:53 @[Calculate_DTC_GAIN] Line:225:[DEBUG] [IAE Process] short target 3034  safe target 3034  long target 5006 
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:980:[DEBUG] effect midtones_gain is 100
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1152:[DEBUG] [WDR AE]: short target : 3034   udmidgain : 100
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/108
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:50:53 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 5.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 6.000000, 9.000000, 16.000000, 2684.354492, 100.000000
+
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 9 / 9
+[AEC Proc]06-19 17:50:53 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:878:[DEBUG] now imageBv is 11076
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:50:53 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:50:53 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/17.006403/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:898:[DEBUG] now target is 3034
+[AEC Proc]06-19 17:50:53 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:50:53 @[Calculate_DTC_GAIN] Line:145:[DEBUG] [IAE Process] brightLow 16727  brighthigh 16727  darklow 5018  darkhigh 5018  lw_avg 21327  pushup 25500  pushdown 25500  dark 1700
+[AEC Proc]06-19 17:50:53 @[Calculate_DTC_GAIN] Line:225:[DEBUG] [IAE Process] short target 3034  safe target 3034  long target 5006 
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:980:[DEBUG] effect midtones_gain is 100
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 13889
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1152:[DEBUG] [WDR AE]: short target : 3034   udmidgain : 100
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 13889 
+
+[AEC Proc]06-19 17:50:53 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 13889  prebv 13889  curbv 13889  P_Gain 0.400000
+[AEC Proc]06-19 17:50:53 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 13889, 5 11076 7734
+
+[AEC Proc]06-19 17:50:53 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:50:53 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 17.006403, targetbv 13889, deltabv 0, maxexptime 11111
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 100/4294967/9, ver: 1.120000
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/116
+[AEC Proc]06-19 17:50:53 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 13848/13889/81919/20739
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:110:[INFO] debug level/to_file: 4/1
+[AEC Proc]06-19 17:54:56 @[allib_ae_getlib_version] Line:119:[INFO] AE ver: 2024_V1.12
+[AEC Proc]06-19 17:54:56 @[AeInit] Line:109:[INFO] AE ver: 2024_V1.12
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_loadfunc] Line:174:[INFO] camera ID: 0
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:110:[INFO] debug level/to_file: 4/1
+[AEC Proc]06-19 17:54:56 @[allib_ae_getlib_version] Line:119:[INFO] AE ver: 2024_V1.12
+[AEC Proc]06-19 17:54:56 @[AeInit] Line:109:[INFO] AE ver: 2024_V1.12
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_loadfunc] Line:174:[INFO] camera ID: 1
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 0 / 0
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/219.119995/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3450
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20818
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21428
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5270
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5063 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 5063  prebv 5270  curbv 5237  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5237, 0 5270 7741
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 219.893845, targetbv 5237, deltabv -33, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 199/199/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5022/5237/0/20818
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 0 / 0
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/219.119995/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3450
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20818
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21428
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5270
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5063 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff 0  targetbv 5063  prebv 5270  curbv 5237  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5237, 0 2430 7741
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 219.893845, targetbv 5237, deltabv -33, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 199/199/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5022/5237/0/20818
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 1 / 1
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/219.893845/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3451
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5237
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -33  targetbv 5056  prebv 5237  curbv 5200  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5200, 1 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 220.761490, targetbv 5200, deltabv -37, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 204/204/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5200/3019/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 1 / 1
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/219.893845/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3451
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5237
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -33  targetbv 5056  prebv 5237  curbv 5200  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5200, 2 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 220.761490, targetbv 5200, deltabv -37, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 204/204/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5200/3019/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 2 / 2
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/220.761490/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3453
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5200
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -37  targetbv 5056  prebv 5200  curbv 5168  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5168, 3 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 221.511887, targetbv 5168, deltabv -32, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 0/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 209/209/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5168/2939/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 2 / 2
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/220.761490/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3453
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5200
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -37  targetbv 5056  prebv 5200  curbv 5168  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5168, 4 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 221.511887, targetbv 5168, deltabv -32, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 209/209/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5168/2939/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 0.000000, 2000.000000, 1.990000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 3 / 3
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/221.511887/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3454
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5168
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -32  targetbv 5056  prebv 5168  curbv 5142  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5142, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 222.121582, targetbv 5142, deltabv -26, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/0/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 213/213/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5142/2876/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 3900.000000, 100.000000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 0.000000, 2000.000000, 1.990000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 3 / 3
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/221.511887/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3454
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5168
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -32  targetbv 5056  prebv 5168  curbv 5142  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5142, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 222.121582, targetbv 5142, deltabv -26, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/1/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 213/213/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5142/2876/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 2000.000000, 1.990000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 2000.000000, 2.040000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 4 / 4
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/222.121582/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3456
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5142
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -26  targetbv 5056  prebv 5142  curbv 5122  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5122, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 222.590576, targetbv 5122, deltabv -20, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/1/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 216/216/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5122/2822/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 0.000000, 2000.000000, 1.990000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 1.000000, 2000.000000, 2.040000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 4 / 4
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/222.121582/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3456
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5142
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -26  targetbv 5056  prebv 5142  curbv 5122  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5122, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 222.590576, targetbv 5122, deltabv -20, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/2/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 216/216/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5122/2822/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 2000.000000, 2.040000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 2000.000000, 2.090000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 5 / 5
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/222.590576/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3457
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5122
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -20  targetbv 5056  prebv 5122  curbv 5106  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5106, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 222.965775, targetbv 5106, deltabv -16, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/2/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 218/218/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5106/2784/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 1.000000, 2000.000000, 2.040000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 2.000000, 2000.000000, 2.090000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 5 / 5
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/222.590576/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3457
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5122
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -20  targetbv 5056  prebv 5122  curbv 5106  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5106, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 222.965775, targetbv 5106, deltabv -16, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/3/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 218/218/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5106/2784/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 2000.000000, 2.090000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 2000.000000, 2.130000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 6 / 6
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/222.965775/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3457
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5106
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -16  targetbv 5056  prebv 5106  curbv 5094  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5094, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.247177, targetbv 5094, deltabv -12, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/3/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 220/220/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5094/2754/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 2.000000, 2000.000000, 2.090000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 3.000000, 2000.000000, 2.130000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 6 / 6
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/222.965775/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3457
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5106
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -16  targetbv 5056  prebv 5106  curbv 5094  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5094, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.247177, targetbv 5094, deltabv -12, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/4/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 220/220/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5094/2754/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 2000.000000, 2.130000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 4.000000, 2000.000000, 2.160000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 7 / 7
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/223.247177/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3458
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5094
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -12  targetbv 5056  prebv 5094  curbv 5085  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5085, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.458221, targetbv 5085, deltabv -9, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/4/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 221/221/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5085/2731/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 3.000000, 2000.000000, 2.130000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 4.000000, 2000.000000, 2.160000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 7 / 7
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/223.247177/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3458
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5094
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -12  targetbv 5056  prebv 5094  curbv 5085  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5085, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.458221, targetbv 5085, deltabv -9, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 221/221/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5085/2731/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 4.000000, 2000.000000, 2.160000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 5.000000, 2000.000000, 2.180000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 8 / 8
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/223.458221/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3458
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5085
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -9  targetbv 5056  prebv 5085  curbv 5078  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5078, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.622375, targetbv 5078, deltabv -7, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 222/222/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/100
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5078/2717/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 4.000000, 2000.000000, 2.160000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 5.000000, 2000.000000, 2.180000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 8 / 8
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/223.458221/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3458
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[Calculate_DTC_GAIN] Line:145:[DEBUG] [IAE Process] brightLow 16727  brighthigh 16727  darklow 5018  darkhigh 5018  lw_avg 21327  pushup 25500  pushdown 25500  dark 1700
+[AEC Proc]06-19 17:54:56 @[Calculate_DTC_GAIN] Line:225:[DEBUG] [IAE Process] short target 3458  safe target 3458  long target 5014 
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:980:[DEBUG] effect midtones_gain is 100
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5085
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1152:[DEBUG] [WDR AE]: short target : 3458   udmidgain : 100
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -9  targetbv 5056  prebv 5085  curbv 5078  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5078, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.622375, targetbv 5078, deltabv -7, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 222/222/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/105
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5078/2717/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 5.000000, 2000.000000, 2.180000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 6.000000, 2000.000000, 2.200000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 9 / 9
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/223.622375/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3459
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[Calculate_DTC_GAIN] Line:145:[DEBUG] [IAE Process] brightLow 16727  brighthigh 16727  darklow 5018  darkhigh 5018  lw_avg 21327  pushup 25500  pushdown 25500  dark 1700
+[AEC Proc]06-19 17:54:56 @[Calculate_DTC_GAIN] Line:225:[DEBUG] [IAE Process] short target 3459  safe target 3459  long target 5015 
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:980:[DEBUG] effect midtones_gain is 100
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5078
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1152:[DEBUG] [WDR AE]: short target : 3459   udmidgain : 100
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -7  targetbv 5056  prebv 5078  curbv 5072  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5072, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.763077, targetbv 5072, deltabv -6, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 223/223/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/105
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5072/2702/20739
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[GetCurrMoudle] Line:57:[DEBUG] strpath D:\3aalgo\3a-tmp\3a\AE\RGB\GXR_AE\x64\Debug
+
+[AEC Proc]06-19 17:54:56 @[allib_ae_set_debug_log_flag] Line:111:[DEBUG] debug level/to_file: 2/1
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:666:[DEBUG] expoSOF1 5.000000, 2000.000000, 2.180000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[alAE_get_param] Line:697:[DEBUG] pipeDelay 4, expoSOF2 6.000000, 2000.000000, 2.200000, 1.000000, 100.000000
+
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2395:[DEBUG] midtones_comp 100
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_aestats] Line:2583:[DEBUG] multicamera mode 0, cameraid 1
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:841:[DEBUG] sof_index/stats_sof_idx: 9 / 9
+[AEC Proc]06-19 17:54:56 @[al3awrapper_dispatchhw3a_yhiststats] Line:2635:[DEBUG] take out quaddark hist, dark 2687 1940 5331 4930 3519 3087
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:878:[DEBUG] now imageBv is 2430
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:881:[DEBUG] now target mode is 01
+[AEC Proc]06-19 17:54:56 @[isDynamicScene] Line:123:[DEBUG] isDynamic scene: brightYHist 758640  darkYHist 0 n_hist 1005051
+[AEC Proc]06-19 17:54:56 @[updateTarget] Line:158:[DEBUG] mode/expIndex/lv_index: 1/223.622375/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:898:[DEBUG] now target is 3459
+[AEC Proc]06-19 17:54:56 @[alAE_Simple_AE_Metering] Line:1309:[DEBUG] uwbgAEMean_8bit: 20739
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:930:[DEBUG] udYmean_weight: 21327
+[AEC Proc]06-19 17:54:56 @[Calculate_DTC_GAIN] Line:145:[DEBUG] [IAE Process] brightLow 16727  brighthigh 16727  darklow 5018  darkhigh 5018  lw_avg 21327  pushup 25500  pushdown 25500  dark 1700
+[AEC Proc]06-19 17:54:56 @[Calculate_DTC_GAIN] Line:225:[DEBUG] [IAE Process] short target 3459  safe target 3459  long target 5015 
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:980:[DEBUG] effect midtones_gain is 100
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1123:[DEBUG] [smoothAE] prevBv is 5078
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1152:[DEBUG] [WDR AE]: short target : 3459   udmidgain : 100
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1165:[DEBUG] 
+ before smooth ae_nextBV is 5056 
+
+[AEC Proc]06-19 17:54:56 @[alAELib_CalculateProgressiveAE] Line:2714:[DEBUG] [Smooth]  SPD 0, prediff -7  targetbv 5056  prebv 5078  curbv 5072  P_Gain 0.400000
+[AEC Proc]06-19 17:54:56 @[alAE_estimation] Line:1169:[DEBUG] 
+ after smooth ae_nextBV is 5072, 5 2430 7734
+
+[AEC Proc]06-19 17:54:56 @[alAELib_GetExposureParameter] Line:1544:[DEBUG] ae_expo_mode is 02
+[AEC Proc]06-19 17:54:56 @[matchExpoTable] Line:189:[DEBUG] [CheckTable] after expindex 223.763077, targetbv 5072, deltabv -6, maxexptime 11111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1050:[DEBUG] ucIsConverged/uciAE_AEconverge_cnt/wiAEDeltaBV: 1/5/0
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1081:[DEBUG] [OUT]iso/ad_gain/expoTime: 223/223/2000, ver: 1.120000
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1082:[DEBUG] [OUT]midtones_gain/shadows_gain: 100/111
+[AEC Proc]06-19 17:54:56 @[alAE_process] Line:1083:[DEBUG] [OUT]bg_bv/bv/lux/ymean_8bit: 5015/5072/2702/20739

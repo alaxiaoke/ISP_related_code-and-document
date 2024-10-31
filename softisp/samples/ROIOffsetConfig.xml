@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vertexs>
+    <gray>
+        <rg_offset>0.01</rg_offset>
+        <bg_offset>0.01</bg_offset>
+        <weight_offset>0.01</weight_offset>
+    </gray>
+    <blue>
+        <rg_offset>0.005</rg_offset>
+        <bg_offset>0.005</bg_offset>
+        <weight_offset>0.005</weight_offset>
+    </blue>
+    <yellow>
+        <rg_offset>-0.005</rg_offset>
+        <bg_offset>-0.005</bg_offset>
+        <weight_offset>-0.005</weight_offset>
+    </yellow>
+</vertexs>
